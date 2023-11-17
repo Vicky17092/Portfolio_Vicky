@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+}
+nav{
+   background-color: navy;
+   display: flex;
+   padding-bottom: 10px;
+   justify-content: center;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 1000;
+   height: 30px;
+
+}
+nav a{
+    text-decoration: none;
+    padding-top: 9px;
+    padding-left: 3%;
+    color: aqua;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    transform: scale(1.1) perspective(500px) rotateY(10deg); /* Smooth 3D scale and rotate effect on hover */
+    color: #00bcd4; /* New text color on hover */
+}
+
+
+.subtopic{
+    text-align:center;
+    font-family: Agbalumo;
+    font-size: 25px;
+}
+
+.font{
+    color: lavenderblush;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: Agbalumo;
+    font-size: 45px;
+}
+
+#name{
+    color: navy;
+}
+.landing{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to left, lavender, rgb(3, 3, 107));
+    margin-top: 40px;
+}
+
+.pphoto{
+    height: 100vh;
+}
+#abouth{
+color: rgb(18, 18, 46);
+align-content: center;
+height: 240px;
+width: 45%;
+font-weight:550;
+font-style: oblique;
+font-size: larger;
+margin: 130px 40px 50px 40px;
+}
+
+.button {
+    background-color: navy;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 25px;
+    perspective: 1000px;
+    transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.button:hover {
+    transform: scale(1.1) rotateY(15deg);
+}
+.about{
+    display: flex;
+    height: 88vh;
+}
+#aboutpic{
+    height: 60%;
+    margin: 85px 80px 50px 40px;
+    padding: 5px;
+    border: 1px solid navy;
+    transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1); 
+}
+#aboutpic:hover {
+    transform: scale(1.1) rotateY(15deg); 
+}
+#aboutp{
+    width: 40%;
+    margin: 90px 100px 50px 40px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+#Skills{
+    display: flex;
+}
+.skillicon{
+    margin: 30px 80px 0px 80px;
+    color: navy;
+}
+.icon{
+    padding: 20px;
+    margin: 10px;
+}
+
+.project{
+    display: flex;
+    background-color: navy;
+}
+.projecti{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin: 50px;
+    border: 1px solid lavenderblush;
+    transition: transform 0.5s cubic-bezier(0.22, 0.61, 0.36, 1); 
+}
+.projecti:hover {
+    transform: scale(1.1) rotateY(15deg); 
+}
+.projecth{
+    font-size: larger;
+    font-weight: 800;
+    font-style: oblique;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.projectp{
+    font-size: 20px;
+    margin: 0px 20px 0px 35px;
+    padding: 20px;
+    color: cadetblue;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .icon-label {
+    font-size: 14px;
+  }
