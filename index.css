@@ -120,10 +120,13 @@ margin: 130px 40px 50px 40px;
     padding: 20px;
     margin: 10px;
 }
-
+#projects{
+    margin-bottom: 30px;
+}
 .project{
     display: flex;
     background-color: navy;
+    
 }
 .projecti{
     height: 200px;
@@ -148,9 +151,9 @@ margin: 130px 40px 50px 40px;
 .projectp{
     font-size: 20px;
     margin: 0px 20px 0px 35px;
-    padding: 20px;
+    padding: 10px;
     color: cadetblue;
-    text-align: center;
+    text-align: left;
 }
 footer {
     background-color: #333;
